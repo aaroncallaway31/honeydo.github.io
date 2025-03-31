@@ -21,4 +21,4 @@ Check out the live website: [https://yourwebsite.com](https://yourwebsite.com)
 
 ## 📸 Screenshot
 
-(![image](https://github.com/user-attachments/assets/ab17f7ec-7e44-4c4c-a23e-b7bec9f7fb8a)
+![image](https://github.com/user-attachments/assets/ab17f7ec-7e44-4c4c-a23e-b7bec9f7fb8a)
