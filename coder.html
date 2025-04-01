@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelector('.navbar-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar-links').classList.toggle('active');
+          });
+        });
+        </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding & Web Services | HoneyDo Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="images\HDSquirrel.png" alt="Black Squirrel with Tool Belt Holding Honeydew Melon">
+        <div class="header-content">
+            <h1>Coding & Web Services</h1>
+            <h4 class="tagline">Where mathematics meets creative problem-solving through code</h4>
+        </div>
+    </header>
+    <nav class="navbar">
+        <!-- Mobile Hamburger Button -->
+        <button class="navbar-toggle">☰ Menu</button>
+        
+        <!-- Nav Links (Hidden on Mobile) -->
+        <div class="navbar-links">
+          <a href="index.html">🏠 Home</a>
+          <a href="aboutMe.html">👤 About Me</a>
+          <a href="tutoring.html">✏️ Tutoring</a>
+          <a href="crafting.html">🧵 Crafting</a>
+          <a href="coder.html">💻 Coding</a>
+          <a href="seamster.html">🪡 Seamster</a>
+          <a href="services.html">🛠️ Handyman</a>
+          <a href="contact.html">📩 Contact</a>
+        </div>
+      </nav>
+
+    <main class="coding-container">
+        <section id="coding-about">
+            <h2><span class="icon">💻</span> My Coding Journey</h2>
+            <div class="coding-intro">
+                <p>As a mathematics educator turned developer, I bring a unique problem-solving perspective to web
+                    development. Certified in Full Stack Development from <a href="https://www.techelevator.com/"
+                        target="_blank" class="tech-link">TechElevator</a>, I combine technical skills with practical
+                    business experience running successful <a href="#" class="store-link">Etsy</a> and <a href="#"
+                        class="store-link">eBay</a> stores.</p>
+                <div class="coding-badges">
+                    <span>🔢 Math Background</span>
+                    <span>📜 Full Stack Certified</span>
+                    <span>🛒 eCommerce Experience</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="coding-services">
+            <h2><span class="icon">🛠️</span> Services Offered</h2>
+            <div class="coding-services-grid">
+                <div class="coding-service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">📱</span> Full Stack Development</li>
+                        <li><span class="feature-icon">🔄</span> Responsive Design</li>
+                        <li><span class="feature-icon">✨</span> Custom Websites</li>
+                        <li><span class="feature-icon">🔧</span> Website Maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="coding-service-card">
+                    <div class="service-icon">🛒</div>
+                    <h3>eCommerce Solutions</h3>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">📦</span> Store Setup & Management</li>
+                        <li><span class="feature-icon">📝</span> Product Listings Optimization</li>
+                        <li><span class="feature-icon">📊</span> Inventory Systems</li>
+                        <li><span class="feature-icon">📈</span> Sales Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="coding-service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Technical Education</h3>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">👨‍🏫</span> One-on-One Coding Tutoring</li>
+                        <li><span class="feature-icon">📹</span> Instructional Video Creation</li>
+                        <li><span class="feature-icon">📖</span> Technical Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="coding-tech">
+            <h2><span class="icon">⚙️</span> Technologies I Work With</h2>
+            <div class="tech-stack">
+                <div class="tech-category">
+                    <h4>Frontend</h4>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Vue.js</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>Backend</h4>
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>SQL</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>Tools</h4>
+                    <div class="tech-tags">
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Postman</span>
+                        <span>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="coding-cta">
+            <h2><span class="icon">💡</span> Ready to Build Something Great?</h2>
+            <p>Whether you need a website, eCommerce solutions, or technical guidance, I can help bring your vision to
+                life.</p>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><span class="footer-icon">✉️</span> <b>Email:</b> <a href="mailto:HoneyDoSquirrel@gmail.com">HoneyDoSquirrel@gmail.com</a></p>
+            <p><span class="footer-icon">📞</span> <b>Phone:</b> <a>(402) 965-1020</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 HoneyDo Projects LLC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
